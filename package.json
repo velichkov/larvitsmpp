@@ -15,6 +15,7 @@
   },
   "description": "Simplified SMPP implementation",
   "devDependencies": {
+    "istanbul": "^0.4.3",
     "mocha": "^2.4.5",
     "portfinder": "^0.4.0"
   },
@@ -36,6 +37,7 @@
   },
   "homepage": "https://github.com/larvit/larvitsmpp",
   "scripts": {
+    "cover": "istanbul cover _mocha",
     "test": "mocha"
   },
   "license": "MIT"
