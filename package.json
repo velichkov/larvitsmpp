@@ -15,6 +15,7 @@
   },
   "description": "Simplified SMPP implementation",
   "devDependencies": {
+    "codeclimate-test-reporter": "^0.3.1",
     "coveralls": "^2.11.9",
     "eslint": "^2.8.0",
     "istanbul": "^0.4.3",
