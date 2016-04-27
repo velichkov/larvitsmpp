@@ -16,6 +16,7 @@
   "description": "Simplified SMPP implementation",
   "devDependencies": {
     "coveralls": "^2.11.9",
+    "eslint": "^2.8.0",
     "istanbul": "^0.4.3",
     "mocha": "^2.4.5",
     "portfinder": "^0.4.0"
@@ -39,6 +40,7 @@
   "homepage": "https://github.com/larvit/larvitsmpp",
   "scripts": {
     "cover": "istanbul cover _mocha",
+    "lint": "eslint lib test",
     "test": "mocha"
   },
   "license": "MIT"
